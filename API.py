@@ -22,5 +22,27 @@ def create_user():
 
     return jsonify(data), 201
 
+
+
+def getReposts(post_data):
+    reposts = {
+        "repost count" : "100"
+    }
+    return jsonify(reposts), 200
+
+def getLikes():
+    likes = {
+        "like count" : "200"
+    }
+    return jsonify(likes), 200
+
+def getBookmarks():
+    bookmarks = {
+        "bookmark count" : "300 bookmarks"
+    }
+    return jsonify(bookmarks), 200
+
+
+
 if __name__ == "__main__":
     app.run(debug=True)
