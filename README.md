@@ -7,7 +7,7 @@ It gives the population of whatever country you type in, and you can type in "do
 ### Input Validation
 Asks username and pass then checks if it's over 8 characters
 ### Postman Calls
-
+Yea you just gotta go to like 127.0.0.1/reposts or /likes or /bookmarks
 ### Object Orientation
 ### YAML Files
 ## Hashing Algorithms
