@@ -9,6 +9,7 @@ Asks username and pass then checks if it's over 8 characters
 ### Postman Calls
 Yea you just gotta go to like 127.0.0.1/reposts or /likes or /bookmarks
 ### Object Orientation
+yep
 ### YAML Files
 ## Hashing Algorithms
 # DevOps Practices
