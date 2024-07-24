@@ -3,6 +3,8 @@ run-name: ${{ github.actor }} is solving all of the issues
 on:
   schedule:
     - cron: "* * * * *"
+  workflow_dispatch:
+
 jobs:
   close-issues:
     runs-on: ubuntu-latest
