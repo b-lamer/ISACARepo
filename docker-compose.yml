@@ -1,0 +1,19 @@
+version: "3"
+
+volumes:
+  minecraftvol:
+  nextcloudvol:
+
+services:
+  minecraft:
+    image: hashicraft/minecraft
+    ports: 
+      - "25565:25565"
+    volumes:
+      - minecraftvol:/data
+  nextcloud:
+    image: nextcloud
+    ports:
+      - "8080:80"
+    volumes:
+      - nextcloudvol:/var/www/html
