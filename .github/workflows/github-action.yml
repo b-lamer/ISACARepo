@@ -1,0 +1,17 @@
+name: Essential Workflow
+run-name: ${{ github.actor }} is solving all of the issues
+on:
+  schedule:
+    - cron: "* * * * *"
+jobs:
+  close-issues:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - uses: actions/stale@v5
+        with:
+          days-before-issue-stale: -1
+          days-before-issue-close: 0
+          close-issue-message: "This issue was closed because the code is already perfect."
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
