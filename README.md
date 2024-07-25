@@ -15,3 +15,5 @@ Creates minecraft and nextcloud services with docker
 ## Hashing Algorithms
 it do be hashing
 # DevOps Practices
+What do developers hate to see? Issues with their code. My action fixes that. Since your code is already perfect, and you know whats best for your program, this action automatically deletes any issues that people open. (They probably don't know what they're talking about anyways) 
+*it is currently not automatic, the scheduler is commented out so I don't waste my github minutes*
