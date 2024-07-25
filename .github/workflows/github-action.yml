@@ -1,10 +1,9 @@
 name: Essential Workflow
 run-name: ${{ github.actor }} is solving all of the issues
 on:
-  schedule:
-    - cron: "* * * * *"
+#  schedule:
+#    - cron: "* * * * *"
   workflow_dispatch:
-
 jobs:
   close-issues:
     runs-on: ubuntu-latest
